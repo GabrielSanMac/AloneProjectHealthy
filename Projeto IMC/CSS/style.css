@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+:root{
+    font-size: 10px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+header{
+    width: 100%;
+}
+
+header #logo{
+    display: flex;
+    margin: 50px 0px 50px 100px;
+}
+
+header #logo img{
+    height: 26px;
+    width: 24px;
+    display: inline;
+    margin-right: 10px;
+}
+
+header #logo h1{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    color: #FD4285;
+}
+
+/* container */
+
+#container{
+    background: #DBDBDB;
+    width: 1246px;
+    margin: 80px auto;
+    border-radius: 8px;
+    display: flex;
+}
+
+/* DASHBOARD */
+
+#container #dashboard{
+    /* background: yellow; */
+    width: 583px;
+    margin: 20px;
+}
+
+/* DASHBOX */
+
+#container #dashboard .box{
+    background: #fff;
+    border-radius: 8px;
+    display: inline-block;
+    width: 100%;
+    padding: 35px 40px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+#container #dashboard .box.last{
+    margin-bottom: 0px;
+}
+
+#container #dashboard .box .title{
+    font-weight: 400;
+    font-size: 2.4rem;
+}
+
+#container #dashboard .box .return{
+    font-weight: 700;
+    font-size: 3.6rem;
+    margin: 38px 0px 38px 0px;
+    color: #00B4A9;
+}
+
+#container #dashboard .box .return.number{
+    font-size: 6.4rem;
+}
+
+/* INFOBOARD */
+
+#container #infoboard{
+    /* background: blue; */
+    width: 583px;
+    margin: 20px;
+    position: relative;
+}
+
+#container #infoboard .box{
+    background: #fff;
+    border-radius: 8px;
+    display: inline-block;
+    width: 100%;
+    padding: 35px 40px;
+    text-transform: uppercase;
+}
+
+#container #infoboard .box .title{
+    font-weight: 400;
+    font-size: 2.4rem;
+    margin-bottom: 68px;
+}
+
+#container #infoboard .box form input, button{
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #000;
+    font-weight: 400;
+    font-size: 2.4rem;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    color: #717171;
+}
+
+#container #infoboard .box form input.withOver{
+    padding-right: 70px;
+}
+
+#container #infoboard .box form .over{
+    position: absolute;
+    margin-top: 12px;
+    right: 50;
+    padding: 0px 10px 0px 10px;
+    font-size: 2.4rem;
+    font-weight: 400;
+    color: #717171;
+    background: none;   
+}
+
+#container #infoboard .box button{
+    background: #00B4A9;
+    color: #fff;
+    font-weight: 400;
+    transition: background 0.2s;
+}
+
+#container #infoboard .box button:hover{
+    background: #00FFEF;
+    /* color: #000; */
+}
+
+/* footer */
+
+footer{
+    text-align: center;
+    color: #000;
+    font-size: 1.8rem;
+    padding: 15px;
+}

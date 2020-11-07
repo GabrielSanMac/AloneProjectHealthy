@@ -1,0 +1,65 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- LINK -->
+        <link rel="stylesheet" href="./CSS/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <!-- /LINK -->
+        <title>Healthy</title>
+    </head>
+    <body>
+
+        <header>
+            <div id="logo">
+                <img src="./imagens/heartbeat.svg" alt="Heartbeat">
+                <h1>healthy</h1>
+            </div>
+        </header>
+
+        <div id="container">
+            <div id="dashboard">
+                <!-- DASHBOARD BOX -->
+                <div class="box">
+                    <h1 class="title">índice</h1>
+                    <h1 class="return number" id="indice">0.0</h1>
+                </div>
+                <!-- /DASHBOARD BOX -->
+                <!-- DASHBOARD BOX -->
+                <div class="box">
+                    <h1 class="title">classificação</h1>
+                    <h1 class="return" id="classificacao">sem entrada</h1>
+                </div>
+                <!-- /DASHBOARD BOX -->
+                <!-- DASHBOARD BOX -->
+                <div class="box last" >
+                    <h1 class="title">risco</h1>
+                    <h1 class="return" id="risco">sem entrada</h1>
+                </div>
+                <!-- /DASHBOARD BOX -->
+            </div>
+            <div id="infoboard">
+                <!-- INFOBOARD BOX -->
+                <div class="box">
+                    <h1 class="title">Informações</h1>
+                    <form>
+                        <input type="text" id="nome" placeholder="Nome" required>
+                        <input type="number" id="idade" placeholder="Idade" required>
+                        <span class="over">KG</span>
+                        <input class="withOver" type="number" id="peso" placeholder="Peso" required>
+                        <span class="over">CM</span>
+                        <input class="withOver" type="number" id="altura" placeholder="Altura" required>
+                    </form>
+                    <button onclick="getValue()">Calcular</button>
+                </div>
+                <!-- /INFOBOARD BOX -->
+            </div>
+        </div>
+
+        <footer>@copyright reserved to <strong><a href="#" style="color: #FD4285;">HEALTHY inc</a></strong></footer>
+        
+    </body>
+    <!-- SCRIPT -->
+    <script src="./Script/script.js"></script>
+    <!-- /SCRIPT -->
+</html>
